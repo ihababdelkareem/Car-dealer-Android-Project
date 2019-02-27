@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/delete_customer"
+            android:icon="@drawable/delete_icon"
+            android:title="Delete A Customer" />
+        <item
+            android:id="@+id/add_admin"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add an Admin" />
+        <item
+            android:id="@+id/show_reserves"
+            android:icon="@drawable/ic_menu"
+            android:title="Reservations" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit"
+            android:title="Logout" />
+    </group>
+
+</menu>

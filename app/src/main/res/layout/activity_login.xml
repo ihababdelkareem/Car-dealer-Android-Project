@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:background="@drawable/bg2">
+
+    <EditText
+        android:id="@+id/userNameTextLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="231dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordTextLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="313dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/rounded_button"
+        android:text="Log in"
+        android:textColor="#fffafa"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gotoSignUpFromLogin"
+        android:layout_width="313dp"
+        android:layout_height="67dp"
+        android:layout_alignEnd="@+id/loginButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/loginButton"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#ffa500"
+        android:text="No Account yet? SIGNUP NOW"
+        android:textColor="#fffafa"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userNameTextLogin"
+        android:layout_marginTop="197dp"
+        android:text="Email"
+        android:textColor="#bebebe"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/rememberMeCheckBox"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="98dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:backgroundTint="#1e90ff"
+        android:text="Rememmber me"
+        android:textColor="#bebebe"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

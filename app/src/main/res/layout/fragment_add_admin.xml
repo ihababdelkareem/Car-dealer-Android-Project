@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAdmin"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:background="@drawable/rsz_footer_lodyas">
+
+    <EditText
+        android:id="@+id/emailsignupAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phoneSignupAdmin"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButtonAdmin"
+        android:layout_marginBottom="106dp"
+        android:layout_marginStart="45dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lastNameSignupAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstNameSignupAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordsignupAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confirmpasssignupAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="251dp"
+        android:ems="10"
+        android:hint="Re-type password"
+        android:inputType="textPassword"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signUpButtonAdmin"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordsignupAdmin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/passwordsignupAdmin"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#ffa500"
+        android:text="Add Admin"
+        android:textColor="#fffafa"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/areaCodeAdmin"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/phoneSignupAdmin"
+        android:layout_marginEnd="-45dp"
+        android:layout_toStartOf="@+id/phoneSignupAdmin"
+        android:text="zip"
+        android:textColor="#bebebe"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/citySpinnerAdmin"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButtonAdmin"
+        android:layout_marginBottom="162dp" />
+
+    <Spinner
+        android:id="@+id/genderSpinnerAdmin"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButtonAdmin"
+        android:layout_marginBottom="228dp" />
+
+    <Spinner
+        android:id="@+id/countryspinnerAdmin"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButtonAdmin"
+        android:layout_marginBottom="194dp" />
+
+</RelativeLayout>

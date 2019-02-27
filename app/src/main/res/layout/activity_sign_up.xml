@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:background="@drawable/rsz_footer_lodyas">
+
+    <EditText
+        android:id="@+id/emailsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phoneSignup"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButton"
+        android:layout_marginBottom="106dp"
+        android:layout_marginStart="45dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lastNameSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstNameSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confirmpasssignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="251dp"
+        android:ems="10"
+        android:hint="Re-type password"
+        android:inputType="textPassword"
+        android:textColor="#FEFEEE"
+        android:textColorHint="#bebebe"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordsignup"
+        android:layout_alignRight="@+id/passwordsignup"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#ffa500"
+        android:text="Sign UP"
+        android:textColor="#fffafa"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/areaCode"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/phoneSignup"
+        android:layout_marginEnd="-45dp"
+        android:layout_toStartOf="@+id/phoneSignup"
+        android:text="zip"
+        android:textColor="#bebebe"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/citySpinner"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButton"
+        android:layout_marginBottom="162dp" />
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButton"
+        android:layout_marginBottom="228dp" />
+
+    <Spinner
+        android:id="@+id/countryspinner"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signUpButton"
+        android:layout_marginBottom="194dp" />
+
+</RelativeLayout>
